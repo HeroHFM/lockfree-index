@@ -26,8 +26,7 @@ void read_data(const char *filename, std::vector<vec2> &vectors, std::vector<std
 	double x, y;
 	std::string word;
 
-	while (handle.good()) {
-		handle >> word >> x >> y;
+	while (handle >> word >> x >> y) {
 		words.push_back(word);
 		vectors.push_back({x, y});
 	}
