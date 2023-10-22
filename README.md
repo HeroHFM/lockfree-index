@@ -12,7 +12,7 @@ $ cmake --build tmp
 ## Run
 
 ```sh
-$ /tmp/tester data/small.txt
+$ ./tmp/tester data/small.txt
 ```
 
 ## Correctness
